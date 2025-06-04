@@ -147,7 +147,7 @@ CREATE TABLE Horloges
      Id                 SMALLINT        UNSIGNED    NOT NULL        AUTO_INCREMENT
     ,Merk               VARCHAR(50)                 NOT NULL
     ,Model              VARCHAR(50)                 NOT NULL
-    ,Prijs              DECIMAL(5,0)                NOT NULL	
+    ,Prijs              MEDIUMINT                   NOT NULL	
     ,IsActief           BIT                         NOT NULL        DEFAULT 1
     ,Opmerking          VARCHAR(255)                    NULL        DEFAULT NULL
     ,DatumAangemaakt    DATETIME(6)                 NOT NULL
